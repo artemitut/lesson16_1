@@ -21,6 +21,7 @@ li{
     background-color: rgb(94, 94, 94);
     position: relative;
     display:grid;
+    border-right: 2px solid white;
 }
 .skelet{
     text-align: center;
@@ -31,6 +32,7 @@ li{
     background-color: rgb(94, 94, 94);
     position: relative;
     display: grid;
+    border-left: 2px solid white;
 }
 ul li ul{
     visibility: hidden;
@@ -88,11 +90,11 @@ ul li ul{
     text-align: center;
 }
 .allul{
-    width: 800px;
+    width: 805px;
     margin: 0 auto;
 }
 .skelet{
-    width: 800px;
+    width: 805px;
     height: 51px;
     display: flex;
     margin: 0 auto;
