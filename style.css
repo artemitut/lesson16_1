@@ -72,21 +72,21 @@ ul li ul{
     margin: 0 auto;
 }
 .ul2 .up3{
-    width: 400px;
+    width: 401px;
     height: 50px;
     background-color: rgb(126, 126, 126);
     position: absolute;
     top: 50px;
-    left: 0px;
+    left: -1px;
     text-align: center;
 }
 .ul2 .li2{
-    width: 400px;
+    width: 401px;
     height: 50px;
     background-color: rgb(126, 126, 126);
     position: absolute;
     top: 100px;
-    left: 0px;
+    left: -1px;
     text-align: center;
 }
 .allul{
