@@ -35,6 +35,7 @@ li{
 ul li ul{
     visibility: hidden;
     opacity: 0;
+    transition: 1s;
 }
 .up1:hover{
     background-color: brown;
@@ -46,6 +47,7 @@ ul li ul{
 }
 .up1:hover > .ul1{
     visibility: visible;
+    transition: 1s;
     opacity: 1;
 }
 .ul1 .li1{
@@ -102,15 +104,18 @@ ul li ul{
     background-color: rgb(126, 126, 126);
     width: 150px;
     height: 50px;
+    transition: 1s;
 }
 
 .up2:hover > .ul2{
     visibility: visible;
     opacity: 1;
+    transition: 1s;
 }
 .up2:hover > .up3{
     visibility: visible;
     opacity: 1;
+    transition: 1s;
 }
 .up3:hover{
     background-color:brown;
@@ -118,4 +123,5 @@ ul li ul{
 .up3:hover > .ul3{
     visibility: visible;
     opacity: 1;
+    transition: 1s;
 }
